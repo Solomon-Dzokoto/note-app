@@ -12,7 +12,7 @@ const Header = () => {
                             <small>note</small>App<span className="text-warning">•</span>  
                         </Navbar.Brand>  
                     </Link>
-                    <Nav className="ms-auto" role="navigation">  
+                    <Nav className="ms-auto " role="navigation">  
                         <LinkContainer to='/'>  
                             <Nav.Link className="active" aria-current="page">Home</Nav.Link>  
                         </LinkContainer>  
