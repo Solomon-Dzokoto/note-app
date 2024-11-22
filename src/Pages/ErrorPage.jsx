@@ -2,6 +2,11 @@ import { Container, Button, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ErrorPage = () => {
+  document.addEventListener('DOMContentLoaded',   function(){
+    document.querySelector('#red').onclick = function (){
+      document.querySelector('#green').style.color="blue"
+    }
+  })
   return (
     <Container className=" text-center mt-5">
       <Row className="justify-content-center">

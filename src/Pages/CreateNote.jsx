@@ -43,4 +43,5 @@ const CreateNote = () => {
     </div>
   )
 }
+
 export default CreateNote
