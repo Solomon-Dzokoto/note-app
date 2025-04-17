@@ -2,7 +2,7 @@ import { useState, createContext, useEffect } from "react";
 
 export const ContextProvider = createContext();
 
-const UseContextApi = ({ children}) => {
+const UseContextApi = ({ children }) => {
   const [notes, setNotes] = useState(
     JSON.parse(localStorage.getItem("data")) || []
   );
